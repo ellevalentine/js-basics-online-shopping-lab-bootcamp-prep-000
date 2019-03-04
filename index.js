@@ -20,6 +20,11 @@ function addToCart(item) {
 // here we have a function called "addToCart" with one arguement: the name of the "item"
 // first we are asked to creat a new object. an object is seen to be similar to a dictonary 
 
+
+function viewCart() {
+  if (!cart.length) {
+    return console.log("Your shopping cart is empty.");
+  }
 const itemsWithPrices = [];
 
   for (let i = 0; i < cart.length; i++) {
