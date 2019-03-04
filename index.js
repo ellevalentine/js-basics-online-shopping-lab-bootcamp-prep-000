@@ -1,5 +1,7 @@
 var cart = [];
 
+// we start with a cart that has an empty array 
+
 function getCart() {
  return cart;
 }
@@ -9,9 +11,15 @@ function setCart(c) {
   return cart;
 }
 
+
 function addToCart(item) {
- // write your code here
+  
+  
 }
+
+
+// here we have a function called "addToCart" with one arguement: the name of the "item"
+// first we are asked to creat a new object. an object is seen to be similar to a dictonary 
 
 function viewCart() {
   // write your code here
@@ -26,5 +34,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
 }
+  // write your code here
